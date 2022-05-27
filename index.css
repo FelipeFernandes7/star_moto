@@ -566,6 +566,10 @@ header .fa-bars{
 header a{
 font-size: 6rem;
 }
+.btn{
+border: solid 2px;
+font-size: 3.5rem;
+}
 
 header .navbar{
   position:absolute;
@@ -578,13 +582,12 @@ header .navbar{
 header #toggler:checked ~ .navbar{
   clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
-
 header .navbar a{
   margin:2rem;
   padding:5rem;
-  font-size:3rem;
+  font-size:3.5rem;
   background:#151515;
-  border:.1rem solid rgba(0,0,0,.1);
+  border:.2rem solid rgba(20,20,20,.1);
   display: block;
 }
 .contact .row form .box{
@@ -606,7 +609,20 @@ font-size: 3.5rem;
 .icons-container .icons span{
   font-size: 3.5rem;
 }
-
+.products .box-container{
+padding: 5rem;
+display: flex;
+flex-wrap: wrap-reverse;
+gap:1.5rem;
+}
+.products .box-container .box .image img{
+height:30rem;
+}
+.products .box-container .box .image .icons a{
+height: 7rem;
+line-height: 7rem;
+width:50%
+}
 }
 
 
@@ -634,6 +650,10 @@ header .fa-bars{
 header a{
 font-size: 6rem;
 }
+.btn{
+border: solid 2px;
+font-size: 3.5rem;
+}
 
 header .navbar{
   position:absolute;
@@ -646,13 +666,12 @@ header .navbar{
 header #toggler:checked ~ .navbar{
   clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
-
 header .navbar a{
   margin:2rem;
   padding:5rem;
-  font-size:3rem;
+  font-size:3.5rem;
   background:#151515;
-  border:.1rem solid rgba(0,0,0,.1);
+  border:.2rem solid rgba(20,20,20,.1);
   display: block;
 }
 .contact .row form .box{
@@ -674,7 +693,20 @@ font-size: 3.5rem;
 .icons-container .icons span{
   font-size: 3.5rem;
 }
-
+.products .box-container{
+padding: 5rem;
+display: flex;
+flex-wrap: wrap-reverse;
+gap:1.5rem;
+}
+.products .box-container .box .image img{
+height:30rem;
+}
+.products .box-container .box .image .icons a{
+height: 7rem;
+line-height: 7rem;
+width:50%
+}
 }
 
 
