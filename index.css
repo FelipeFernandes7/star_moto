@@ -546,9 +546,6 @@ header #toggler {
 
 
 @media  screen and (max-width: 477px) {
-  html {
-    font-size: 60%;
-  }
 
   header {
     padding: 2rem;
