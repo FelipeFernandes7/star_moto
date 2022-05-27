@@ -104,7 +104,7 @@ header .fa-bars{
   border-radius: .5rem;
   padding:.5rem 1.5rem;
   cursor: pointer;
-  border:.1rem solid rgba(0,0,0,.3);
+  border:.1rem solid rgba(28,28,28.1);
   display: none;
 }
 
@@ -160,7 +160,7 @@ header .fa-bars{
   width:100%;
   border:1.5rem solid #151515;
   border-radius: .5rem;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  box-shadow: 0 .5rem 1rem rgba(28,28,28,.1);
   height: 100%;
   object-fit: cover;
 }
@@ -204,7 +204,7 @@ header .fa-bars{
 
 .icons-container .icons{
   background:#151515;
-  border:.1rem solid rgba(0,0,0,.1);
+  border:.1rem solid rgba(28,28,28,.1);
   padding:2rem;
   display: flex;
   align-items: center;
@@ -235,7 +235,7 @@ header .fa-bars{
 
 .products .box-container .box{
   flex:1 1 30rem;
-  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  box-shadow: 0 .5rem 1.5rem rgba(28,28,28,.1);
   border-radius: .5rem;
   border:.1rem solid rgba(0,0,0,.1);
   position: relative;    
@@ -329,11 +329,11 @@ header .fa-bars{
 
 .review .box-container .box{
   flex:1 1 30rem;
-  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  box-shadow: 0 .5rem 1.5rem rgba(28,28,28,.1);
   border-radius: .5rem;
   padding:3rem 2rem;
   position: relative;
-  border:.1rem solid rgba(0,0,0,.1);
+  border:.1rem solid rgba(28,28,28,.1);
 }
 
 .review .box-container .box .fa-quote-right{
@@ -389,8 +389,8 @@ header .fa-bars{
 .contact .row form{
   flex:1 1 40rem;
   padding:2rem 2.5rem;
-  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-  border:.1rem solid rgba(0,0,0,.1);
+  box-shadow: 0 .5rem 1.5rem rgba(28,28,28,.1);
+  border:.1rem solid rgba(28,28,28,.1);
   background: #151515;
   border-radius: .5rem;
 }
@@ -408,7 +408,7 @@ header .fa-bars{
   font-size: 1.7rem;
   color:#DC143C;
   text-transform: none;
-  border:.1rem solid rgba(0,0,0,.1);
+  border:.1rem solid rgba(28,28,28,.1);
   border-radius: .5rem;
   margin:.7rem 0;
   width: 100%;
@@ -462,7 +462,7 @@ header .fa-bars{
   padding-top: 2.5rem;
   font-size: 2rem;
   color:#999;
-  border-top: .1rem solid rgba(0,0,0,.1);
+  border-top: .1rem solid rgba(28,28,28,.1);
   padding-bottom: 9rem;
 }
 
@@ -500,7 +500,7 @@ header .navbar{
     position:absolute;
     top:100%; left:0; right:0;
     background:#131313;
-    border-top: .1rem solid rgba(15,15,15,1);
+    border-top: .1rem solid rgba(28,28,28,1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
@@ -512,7 +512,7 @@ header .navbar a{
     padding:5rem;
     font-size:3.5rem;
     background:#151515;
-    border:.2rem solid rgba(20,20,20,.1);
+    border:.2rem solid rgba(28,28,28,.1);
     display: block;
 }
 .contact .row form .box{
@@ -579,7 +579,7 @@ header .navbar{
   position:absolute;
   top:100%; left:0; right:0;
   background:#131313;
-  border-top: .1rem solid rgba(15,15,15,1);
+  border-top: .1rem solid rgba(28,28,28,1);
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
@@ -591,7 +591,7 @@ header .navbar a{
   padding:5rem;
   font-size:3.5rem;
   background:#151515;
-  border:.2rem solid rgba(20,20,20,.1);
+  border:.2rem solid rgba(28,28,28,.1);
   display: block;
 }
 .contact .row form .box{
@@ -664,7 +664,7 @@ header .navbar{
   position:absolute;
   top:100%; left:0; right:0;
   background:#131313;
-  border-top: .1rem solid rgba(15,15,15,1);
+  border-top: .1rem solid rgba(28,28,28,1);
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
@@ -676,7 +676,7 @@ header .navbar a{
   padding:5rem;
   font-size:3.5rem;
   background:#151515;
-  border:.2rem solid rgba(20,20,20,.1);
+  border:.2rem solid rgba(28,28,28,.1);
   display: block;
 }
 .contact .row form .box{
