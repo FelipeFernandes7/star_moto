@@ -502,6 +502,49 @@ header #toggler {
   }
 }
 
+@media (max-width: 730px) {
+  html .fa-bars {
+    display: block;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #151515;
+    border-top: 0.1rem solid rgba(40, 40, 40, 1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header #toggler:checked ~ .navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .home .content h3 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .home .content span {
+    font-size: 2.5rem;
+  }
+
+  header .navbar a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #151515;
+    border: 0.5rem solid rgba(40, 40, 40, 1);
+    display: block;
+  }
+  .icons-container {
+    background: #161616;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+
 @media (max-width: 477px) {
   html {
     font-size: 60%;
