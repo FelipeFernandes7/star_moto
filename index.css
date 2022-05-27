@@ -436,7 +436,7 @@ header #toggler {
 
 
 /* Responsivo */
-@media  screen and (max-width: 991px) {
+@media  screen and (max-width: 450px) {
   .home .content {
     max-width: 50rem;
   }
@@ -781,11 +781,12 @@ header #toggler {
   
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 412px) {
   html .fa-bars {
     display: block;
   }
   header .navbar {
+    padding: 4.5rem;
     position: absolute;
     top: 100%;
     left: 0;
