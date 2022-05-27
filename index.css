@@ -781,7 +781,7 @@ header #toggler {
   
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 730px) {
   html .fa-bars {
     display: block;
   }
