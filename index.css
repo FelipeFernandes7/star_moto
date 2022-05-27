@@ -488,6 +488,10 @@ header{
 header a{
   font-size: 6rem;
 }
+.btn{
+  border: solid 2px;
+  font-size: 3.5rem;
+}
 
 header .navbar{
     position:absolute;
