@@ -436,7 +436,7 @@ header #toggler {
 
 
 /* Responsivo */
-@media (max-width: 991px) {
+@media  screen and (max-width: 991px) {
   html {
     font-size: 80%;
   }
@@ -460,7 +460,7 @@ header #toggler {
   }
 }
 
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
   html .fa-bars {
     display: block;
   }
@@ -502,7 +502,7 @@ header #toggler {
   }
 }
 
-@media (max-width: 730px) {
+@media  screen and (max-width: 730px) {
   html .fa-bars {
     display: block;
   }
@@ -545,7 +545,7 @@ header #toggler {
 }
 
 
-@media (max-width: 477px) {
+@media  screen and (max-width: 477px) {
   html {
     font-size: 60%;
   }
