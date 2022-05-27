@@ -472,18 +472,54 @@ header .fa-bars{
 /* media queries  */
 @media screen and (max-width:991px){
     
+header{
+  padding: 3.5rem;
+}
+  header .fa-bars{
+    display: block;
+    font-size: 6rem;
+    border: solid 2px;
+}
+header a{
+  font-size: 6rem;
+}
 
-  header{
-      padding:2rem;
-  }
+header .navbar{
+    position:absolute;
+    top:100%; left:0; right:0;
+    background:#131313;
+    border-top: .1rem solid rgba(15,15,15,1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
 
-  section{
-      padding:2.5rem;
-  }
+header #toggler:checked ~ .navbar{
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
 
-  .home{
-      background-position: left;
-  }
+header .navbar a{
+    margin:2rem;
+    padding:5rem;
+    font-size:3rem;
+    background:#151515;
+    border:.1rem solid rgba(0,0,0,.1);
+    display: block;
+}
+
+.home .content h3{
+    font-size: 10rem;
+}
+
+.home .content span{
+    font-size: 8rem;
+}
+
+.icons-container .icons h3{
+    font-size: 4rem;
+}
+
+.icons-container .icons span{
+    font-size: 4rem;
+}
 
 }
 
@@ -496,8 +532,8 @@ header .fa-bars{
   header .navbar{
       position:absolute;
       top:100%; left:0; right:0;
-      background:#eee;
-      border-top: .1rem solid rgba(0,0,0,.1);
+      background:#131313;
+      border-top: .1rem solid rgba(15,15,15,1);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
