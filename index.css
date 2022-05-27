@@ -131,6 +131,7 @@ header .fa-bars{
   color:#FF7F50;
   padding:1rem 0;
   line-height: 1.5;
+  font-weight: 700;
 }
 
 .home .content p{
@@ -138,6 +139,7 @@ header .fa-bars{
   color:#999;
   padding:1rem 0;
   line-height: 1.5;
+  font-weight: 700;
 }
 
 .about .row{
@@ -489,8 +491,9 @@ header a{
   font-size: 6rem;
 }
 .btn{
-  border: solid 2px;
+  border: solid 3px;
   font-size: 3.5rem;
+  font-weight: 700;
 }
 
 header .navbar{
@@ -567,8 +570,9 @@ header a{
 font-size: 6rem;
 }
 .btn{
-border: solid 2px;
-font-size: 3.5rem;
+  border: solid 3px;
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 
 header .navbar{
@@ -651,8 +655,9 @@ header a{
 font-size: 6rem;
 }
 .btn{
-border: solid 2px;
-font-size: 3.5rem;
+  border: solid 3px;
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 
 header .navbar{
