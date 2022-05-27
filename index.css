@@ -244,7 +244,7 @@ header .fa-bars{
   top:1rem; left:1rem;
   padding:.7rem 1rem;
   font-size: 2rem;
-  color:#DC143C;
+  color:#eee;
   background:rgba(77,24,224,1);
   z-index: 1;
   border-radius: .5rem;
@@ -469,6 +469,24 @@ header .fa-bars{
 }
 
 
+/* media queries  */
+@media screen and (max-width:991px){
+    
+
+  header{
+      padding:2rem;
+  }
+
+  section{
+      padding:2.5rem;
+  }
+
+  .home{
+      background-position: left;
+  }
+
+}
+
 @media screen and (max-width:768px){
 
   header .fa-bars{
@@ -478,7 +496,7 @@ header .fa-bars{
   header .navbar{
       position:absolute;
       top:100%; left:0; right:0;
-      background:#151515;
+      background:#eee;
       border-top: .1rem solid rgba(0,0,0,.1);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
@@ -490,7 +508,7 @@ header .fa-bars{
   header .navbar a{
       margin:1.5rem;
       padding:1.5rem;
-      background:#131313;
+      background:#151515;
       border:.1rem solid rgba(0,0,0,.1);
       display: block;
   }
@@ -513,7 +531,7 @@ header .fa-bars{
   
 }
 
-@media screen and  (max-width:450px){
+@media screen and (max-width:450px){
   
   html{
       font-size: 50%;
